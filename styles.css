@@ -27,7 +27,7 @@ nav>ul {
   line-height: 2.2em;
   padding-left: 8px;
   background-color: #ff7d66;
-  margin: 0 100;
+  margin: 1 100;
   width: 90%;
 }
 
@@ -68,10 +68,30 @@ header {
 body > footer{
   background-color: #92a8d1;
   grid-area: footer;
-  grid-template: 1fr
+  grid-template: 1fr;
 }
 
 
 .firstblankbox {
+  background-color: white;
+}
+
+.contactusformspace {
+  background-color: white;
+}
+
+.firstnameclass {
+  padding-top: 3%;
+}
+
+.lastnameclass {
+  padding-top:1%;
+}
+
+.helpsomeonetodaywithwordssize {
+  max-width: 16%;
+  height: auto;
+}
+.mygallery{
   background-color: white;
 }
