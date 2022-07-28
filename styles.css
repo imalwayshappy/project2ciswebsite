@@ -11,6 +11,7 @@ body {
     "images4   description4"
     "footer    footer";
   grid-column-gap: 15px;
+  background-color: #e6f9ff;
 }
 
 
@@ -29,6 +30,10 @@ nav>ul {
   background-color: #ff7d66;
   margin: 1 100;
   width: 90%;
+  display:block;
+  text-align:center;
+  clear:both;
+  text-align:center;
 }
 
 
@@ -73,11 +78,11 @@ body > footer{
 
 
 .firstblankbox {
-  background-color: white;
+  background-color: #e6f9ff;
 }
 
 .contactusformspace {
-  background-color: white;
+  background-color: #e6f9ff;
 }
 
 .firstnameclass {
@@ -106,4 +111,29 @@ body > footer{
 
 .accordion {
   margin-bottom: 2%:
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.addmargintofooter{
+  margin: 5%;
 }
