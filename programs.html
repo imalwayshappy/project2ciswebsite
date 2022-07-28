@@ -4,11 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title>Jose Manuel Hernandez</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!--my stylesheet link-->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
+  <header class="topheaderspace">
     <h1 class="headercolor">YouCanHelpSomeoneToday</h1>
   </header>
 
@@ -25,7 +31,7 @@
 
   </p>
 
-  <p>
+  <p class="topparagraph">
     <strong> We built a school in Haiti</strong>...<br> Description 1 to be continued...:<br> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
@@ -47,14 +53,45 @@
                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
   </p>
-  <p>
-    <strong> Help a kid today</strong> ... <br> Description 2 to be continued...:<br> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+
+
+<!---i am going to comment out the code below and try to put the div accordion in here... if it does not work then jkust comment it back in --->
+
+    <!-- <strong> Help a kid today</strong> ... <br> Description 2 to be continued...:<br> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
     ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </p>
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
+
+    <div class="card-group">
+       <div class="card">
+         <img src="kidsposingforpictures.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">School kids taking a picture</h5>
+           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+         </div>
+       </div>
+       <div class="card">
+         <img src="partofschoolsbuilding.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Part of schools building</h5>
+           <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+         </div>
+       </div>
+       <div class="card">
+         <img src="kidsinclass.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title">Kids in Class</h5>
+           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+           <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+         </div>
+       </div>
+     </div>
+
+
   <p class="mygallery">
     <a target="_blank" href="helpsomeonetodaywithwords.jpg">
       <img src="helpsomeonetodaywithwords.jpg" alt="Forest" width="600" height="400">
@@ -66,7 +103,8 @@
     ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
-  </p>
+ </p>
+
   <p>
     <strong> Come join us in person </strong>...<br> Description 3 to be continued...: <br> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -87,9 +125,41 @@
     velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.-->
   </p>
-  <footer>
-    last updated july 22
-  </footer>
+
+
+<!--code written below should be deleted once i put my cards into the help a kid grid area.Description2 -->
+
+ <!-- <div class="card-group">
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>  -->
+
+  <!--footer code below -->
+  <!-- <footer>
+   last updated july 22
+  </footer> -->
 </body>
 
 
