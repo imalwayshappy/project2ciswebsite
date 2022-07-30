@@ -19,7 +19,7 @@ body>header {
   grid-row: 1;
   grid-column: 1/-1;
   background-color: #92a8d1;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 
@@ -174,4 +174,13 @@ body > form {
 
 .aboutcolorboxclass{
   background-color: #e6f9ff;
+}
+
+.haitifactsimage {
+  height: 300px;
+  width: 400px;
+}
+
+.brownwords{
+  margin-top: 75px;
 }
